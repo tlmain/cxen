@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="CXEN Async Task" max_length="40" name="x_wols2_cxen_cxen_async_task" type="collection">
+        <element default="true" label="Allow Replacement" max_length="40" name="u_allow_replacement" type="boolean"/>
+        <element label="Callback Method" max_length="255" name="u_callback_method" read_only="true" type="string"/>
+        <element label="Calling Abstraction" max_length="99999" name="u_calling_abstraction" read_only="true" type="string"/>
+        <element attributes="readonly_clickthrough=true" label="Calling Function" max_length="32" name="u_calling_function" read_only="true" reference="x_wols2_cxen_cxen_functions" type="reference"/>
+        <element label="Compilation Errors" max_length="9999" name="u_compilation_errors" read_only="true" type="string"/>
+        <element label="Compilation Successful" max_length="40" name="u_compilation_successful" read_only="true" type="boolean"/>
+        <element label="Compilation Warnings" max_length="9999" name="u_compilation_warnings" read_only="true" type="string"/>
+        <element label="Compile Only" max_length="40" name="u_compile_only" read_only="true" type="boolean"/>
+        <element label="Destroy When Complete" max_length="40" name="u_destroy_when_complete" read_only="true" type="boolean"/>
+        <element label="Execution Errors" max_length="9999" name="u_execution_errors" read_only="true" type="string"/>
+        <element label="Execution Log" max_length="9999" name="u_execution_log" read_only="true" type="html"/>
+        <element label="Execution Successful" max_length="40" name="u_execution_successful" read_only="true" type="boolean"/>
+        <element label="Parameter Data" max_length="9999999" name="u_parameter_data" read_only="true" type="string"/>
+        <element attributes="readonly_clickthrough=true" label="Returned Value" max_length="268435456" name="u_returned_value" read_only="true" type="string"/>
+        <element label="Returned Value Type" max_length="255" name="u_returned_value_type" read_only="true" type="string"/>
+        <element default="Queued" display="true" label="State" max_length="255" name="u_state" read_only="true" type="string"/>
+        <index name="index">
+            <element name="u_calling_function"/>
+        </index>
+    </element>
+</database>

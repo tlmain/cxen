@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_wols2_cxen_cxen_libraries</description>
+        <name>x_wols2_cxen_cxen_libraries</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-07-11 19:43:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ccbf3b28db57134486f152c8dc9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_wols2_cxen_cxen_libraries</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_security_acl_ccbf3b28db57134486f152c8dc9619ba</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-07-11 19:43:08</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

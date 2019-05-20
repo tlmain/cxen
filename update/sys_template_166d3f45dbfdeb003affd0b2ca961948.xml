@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>Branch - Reality Port Unresponsive</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Reality Port Unresponsive to the LOGOFF and TANDEM Commands</short_description>
+        <show_on_template_bar>false</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-11-14 15:27:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>166d3f45dbfdeb003affd0b2ca961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Branch - Reality Port Unresponsive</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_template_166d3f45dbfdeb003affd0b2ca961948</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-11-14 15:27:07</sys_updated_on>
+        <table>incident</table>
+        <template>short_description=Reality Port Unresponsive to the LOGOFF and TANDEM Commands^instructions=**This interaction template should be used ONLY when a port in Reality (Branch System) does not respond to either the LOGOFF or TANDEM commands in TCL**
+
+Datebase e.g. Wolcen2, Mars, Juno etc :
+Port ID e.g. 1234 :
+Status of Port e.g. WRITE ITEM, LOCK ITEM, READ ITEM etc :
+Routine/Program in use. In TCL, CT GM.TERM XXXX (where XXXX is the port number) :
+Last action user took when session hung/froze :^affected_system=^cmdb_ci=^close_notes=^contact_type=phone^impact=3^category=^subcategory=^close_code=</template>
+        <user/>
+        <view/>
+    </sys_template>
+</record_update>

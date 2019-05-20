@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="CXEN Config" max_length="40" name="x_wols2_cxen_cxen_config" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="API Endpoint" max_length="32" name="u_api_endpoint" reference="sys_rest_message" type="reference"/>
+        <element label="Framework Libraries" max_length="4000" name="u_framework_libraries" read_only="true" type="glide_list"/>
+        <element choice="3" label="Framework Version" max_length="255" name="u_framework_version" type="string">
+            <choice>
+                <element label="1.0" value="1.0"/>
+                <element label="1.1" value="1.1"/>
+                <element label="2.0" value="2.0"/>
+                <element label="3.0" value="3.0"/>
+                <element label="3.5" value="3.5"/>
+                <element label="4.0" value="4.0"/>
+            </choice>
+        </element>
+        <element label="Logging Callback" max_length="40" name="u_logging_callback" type="boolean"/>
+        <element label="Log Address" max_length="255" name="u_log_address" type="string"/>
+        <element display="true" label="Name" max_length="255" name="u_name" type="string"/>
+        <index name="index">
+            <element name="u_api_endpoint"/>
+        </index>
+    </element>
+</database>

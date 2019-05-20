@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="57aeaab5dbcf5bc001767ee5bf9619cd" sys_domain="global" table="x_wols2_cxen_cxen_libraries" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-07-03 00:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3ae2eb5dbcf5bc001767ee5bf9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wols2_cxen_cxen_libraries" name="x_wols2_cxen_cxen_libraries" sys_domain="global" view="Default view">57aeaab5dbcf5bc001767ee5bf9619cd</sys_ui_form>
+            <sys_ui_section caption="CXEN C# Libraries" display_value="CXEN C# Libraries" name="x_wols2_cxen_cxen_libraries" sys_domain="global" view="Default view">595ea2b5dbcf5bc001767ee5bf9619a3</sys_ui_section>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-07-03 00:45:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-07-03 00:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fae2eb5dbcf5bc001767ee5bf9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wols2_cxen_cxen_libraries" name="x_wols2_cxen_cxen_libraries" sys_domain="global" view="Default view">57aeaab5dbcf5bc001767ee5bf9619cd</sys_ui_form>
+            <sys_ui_section caption="Code" display_value="Code" name="x_wols2_cxen_cxen_libraries" sys_domain="global" view="Default view">9baeaab5dbcf5bc001767ee5bf9619cb</sys_ui_section>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-07-03 00:45:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-07-03 00:45:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7ae2eb5dbcf5bc001767ee5bf9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wols2_cxen_cxen_libraries" name="x_wols2_cxen_cxen_libraries" sys_domain="global" view="Default view">57aeaab5dbcf5bc001767ee5bf9619cd</sys_ui_form>
+            <sys_ui_section caption="References" display_value="References" name="x_wols2_cxen_cxen_libraries" sys_domain="global" view="Default view">53aeaab5dbcf5bc001767ee5bf9619cc</sys_ui_section>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-07-03 00:45:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-07-03 00:45:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7ae2eb5dbcf5bc001767ee5bf9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wols2_cxen_cxen_libraries" name="x_wols2_cxen_cxen_libraries" sys_domain="global" view="Default view">57aeaab5dbcf5bc001767ee5bf9619cd</sys_ui_form>
+            <sys_ui_section caption="Compiler Results" display_value="Compiler Results" name="x_wols2_cxen_cxen_libraries" sys_domain="global" view="Default view">5baeaab5dbcf5bc001767ee5bf9619cc</sys_ui_section>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-07-03 00:45:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-07-03 00:45:54</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57aeaab5dbcf5bc001767ee5bf9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_wols2_cxen_cxen_libraries</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_57aeaab5dbcf5bc001767ee5bf9619cd</sys_update_name>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-07-03 00:45:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

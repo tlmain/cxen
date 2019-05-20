@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Test Build</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_style>primary</form_style>
+        <hint/>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>true</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>true</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style>primary</list_style>
+        <name>Test Build</name>
+        <onclick>initFunctionBuild()</onclick>
+        <order>1</order>
+        <script><![CDATA[function initFunctionBuild()
+{
+	//THIS METHOD IS MIRRORED ON THE TEST_BUILD UI ACTION AS WELL, TODO CREATE A COMMON RESOURCES FOR THESE UI ACTIONS TO CALL
+	//Get params
+	var params = {};
+		var paramElements = document.querySelectorAll('[id^="functionparameter_"]');
+		for(var p = 0; p < paramElements.length ; p++)
+			{
+			//check for valid index (JS bug)
+			if (!Number.isInteger(p))
+				{continue;}
+				var element = paramElements[p];
+				var name = element.id.replace('functionparameter_','');
+				var valueType = element.dataset.valuetype;
+				
+				//Check type
+				if (valueType == 'True/False')
+					{
+					//Boolean, cast explicitly
+					params[name] = element.checked == true;
+				}
+				else if (valueType == 'File')
+					{
+					//File type, get hidden value (_BASE64_ header enables correct parsing on CXen engine JSON parser)
+					params[name] =  "_BASE64_" + document.getElementById('data_functionparameter_' + name ).value;
+				}
+				else if (valueType == 'Date/Time')
+					{
+					//Date/Time type
+					params[name] = element.value;
+				}
+				else if (valueType== 'List')
+					{
+					//List type, split by newline
+					params[name] =  element.value.split('\n');
+				}
+				else
+					{
+					//Generic
+					params[name] = element.value;
+				}
+			}
+			//Trigger creation of new result record
+			var ga = new GlideAjax('CXEN_Engine');
+			ga.addParam('sysparm_name', 'ExecuteFunction');
+			ga.addParam('sysparm_funcSysId', g_form.getUniqueValue());
+			ga.addParam('sysparm_params', JSON.stringify(params));
+			ga.addParam('sysparm_buildOnly',true);
+			ga.getXML(nav);	
+		}		
+		
+		function nav(response)
+		{
+			var sys_id = response.responseXML.documentElement.getAttribute("answer");
+			window.location.href = '/x_wols2_cxen_cxen_async_task.do?sys_id=' + sys_id;
+		}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-07-03 04:02:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e7b5f7ddb0b9bc001767ee5bf9619f7</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Test Build</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_ui_action_4e7b5f7ddb0b9bc001767ee5bf9619f7</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-10-09 04:52:16</sys_updated_on>
+        <table>x_wols2_cxen_cxen_functions</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

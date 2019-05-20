@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>CXEN_FunctionParameterValues</name>
+        <scoped_name>x_wols2_cxen_CXEN_FunctionParameterValues</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-07-03 05:12:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d79472f5db039bc001767ee5bf9619eb</sys_id>
+        <sys_mod_count>332</sys_mod_count>
+        <sys_name>CXEN_FunctionParameterValues</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_ui_macro_d79472f5db039bc001767ee5bf9619eb</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-08-21 04:46:37</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<j:jelly
+	xmlns:j="jelly:core"
+	xmlns:g="glide"
+	xmlns:g2="null"
+	xmlns:j2="null" trim="false">
+	<script>
+		function fileUpload(_inputObj)
+		{			
+			//Read file data from upload and save it to respective hidden field
+			var id = _inputObj.id;
+			var file = _inputObj.files[0];
+			var reader = new FileReader();		
+		    reader.onload = function(e) 
+			{	  
+				var dataField = document.getElementById("data_" + _inputObj.id);
+				dataField.value = btoa(reader.result);	     
+			};
+			var read = reader.readAsBinaryString(file);	
+		}	
+	</script>	
+	<form class="form-horizontal">
+		
+		<g2:evaluate var="jvar_defs" jelly="true" object="true">
+			var eng = new CXEN_Engine();
+			eng.GetFunctionParameterDefinitionRecords(current.u_parameter_definitions);				
+		</g2:evaluate>	
+
+		<j2:forEach var="jvar_def" items="$[jvar_defs]">
+			<g2:evaluate var="jvar_name" jelly="true">JSON.parse(jelly.jvar_def).u_name;</g2:evaluate>
+			<g2:evaluate var="jvar_defaultValue" jelly="true" object="true">JSON.parse(jelly.jvar_def).u_default_value;</g2:evaluate>
+			<g2:evaluate var="jvar_dataType" jelly="true">JSON.parse(jelly.jvar_def).u_data_type;</g2:evaluate>
+			<g2:evaluate var="jvar_description" jelly="true">JSON.parse(jelly.jvar_def).u_description;</g2:evaluate>			
+			<g2:evaluate var="jvar_choices_json" jelly="true" object="true">JSON.parse(jelly.jvar_def).u_choices;</g2:evaluate>
+	     	<g2:evaluate var="jvar_variableName" jelly="true">JSON.parse(jelly.jvar_def).u_variable_name;</g2:evaluate>				
+			<g2:evaluate var="jvar_id" jelly="true">"functionparameter_" + jelly.jvar_variableName;</g2:evaluate>				
+			<g2:evaluate var="jvar_dataid" jelly="true">"data_functionparameter_" + jelly.jvar_variableName;</g2:evaluate>				
+			<div class="row" >
+				<label for="$['functionparameter_' + jvar_variableName]" class="control-label col-sm-2" >$[jvar_name]</label>	
+				<font color="#BBBBBB">$[jvar_description]</font>
+
+				<div class="col-sm-4" style="width: 200px" >
+					<j2:if test="$[jvar_dataType == 'Date']">
+						<input id='$[jvar_id]' class="form-control input-sm" type="date" value="$[jvar_defaultValue]" data-valuetype="$[jvar_dataType]"/>
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'Date/Time']">
+						<input id='$[jvar_id]' class="form-control input-sm" type="datetime-local" value="$[jvar_defaultValue]" data-valuetype="$[jvar_dataType]"/>
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'Email']">
+						<input id='$[jvar_id]' class="form-control input-sm" type="email" value="$[jvar_defaultValue]" data-valuetype="$[jvar_dataType]"/>
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'File']">
+						<input id='$[jvar_id]' class="form-control-file input-sm" type="file" onchange="fileUpload(this)" data-valuetype="$[jvar_dataType]"/>
+						<input id='$[jvar_dataid]' type="hidden" />
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'Float']">
+						<input id='$[jvar_id]' class="form-control input-sm" type="number" value="$[jvar_defaultValue]" data-valuetype="$[jvar_dataType]"/>
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'Integer']">
+						<input id='$[jvar_id]' class="form-control input-sm" type="number" value="$[jvar_defaultValue]" data-valuetype="$[jvar_dataType]"/>
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'List']">
+						<textarea id='$[jvar_id]' class="form-control input-sm" data-valuetype="$[jvar_dataType]">$[jvar_defaultValue]</textarea>
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'Multiline String']">
+						<textarea id='$[jvar_id]' class="form-control input-sm" data-valuetype="$[jvar_dataType]">$[jvar_defaultValue]"</textarea>
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'String']">
+						<input id='$[jvar_id]' class="form-control input-sm" type="text" value="$[jvar_defaultValue]" data-valuetype="$[jvar_dataType]"/>
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'Name-Value Pairs']">
+						<input id='$[jvar_id]' class="form-control input-sm" type="inlineFormCustomSelect"  value="$[jvar_defaultValue]" data-valuetype="$[jvar_dataType]"/>
+					</j2:if>				
+					<j2:if test="$[jvar_dataType == 'Password']">								
+						<input id='$[jvar_id]' class="form-control input-sm" type="password" value="$[jvar_defaultValue]"   data-valuetype="$[jvar_dataType]"/>
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'Time']">
+						<input id='$[jvar_id]' class="form-control input-sm" type="time" value="$[jvar_defaultValue]" data-valuetype="$[jvar_dataType]"/>
+					</j2:if>
+					<j2:if test="$[jvar_dataType == 'True/False']">
+						
+	
+						
+							<j2:if test="$[jvar_defaultValue == 'true']">	
+											<input id='$[jvar_id]' class="checkbox-sm" type="checkbox" data-valuetype="$[jvar_dataType]" checked='true'/>		
+					       </j2:if>
+							<j2:if test="$[jvar_defaultValue != 'true']">	
+							
+						<input id='$[jvar_id]' class="checkbox-sm" type="checkbox" data-valuetype="$[jvar_dataType]"/>		
+								
+					       </j2:if>
+						</j2:if>
+					
+										
+
+					
+					
+					<j2:if test="$[jvar_dataType == 'Choice']">
+					<g2:evaluate var="jvar_choices" jelly="true" object="true">Object.keys(JSON.parse(jelly.jvar_choices_json));</g2:evaluate>		
+						<select id='$[jvar_id]' class="form-control input-sm" value="$[jvar_defaultValue]" data-valuetype="$[jvar_dataType]">
+							<j2:forEach var="jvar_choice" items="$[jvar_choices]">								
+								<g2:evaluate var="jvar_val" jelly="true">									
+									JSON.parse(jelly.jvar_choices_json)[jelly.jvar_choice];
+								</g2:evaluate>
+								<option value="$[jvar_val]">$[jvar_choice]</option>
+							</j2:forEach>
+						</select>
+					</j2:if>					
+					
+					
+					<j2:if test="$[jvar_dataType == 'URL']">
+						<input id='$[jvar_id]' class="form-control input-sm" type="url" value="$[jvar_defaultValue]" data-valuetype="$[jvar_dataType]"/>
+					</j2:if>
+				</div>
+			</div>
+			<hr style="margin-top: 5px; margin-bottom: 5px ;"/>
+		</j2:forEach>
+			</form>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

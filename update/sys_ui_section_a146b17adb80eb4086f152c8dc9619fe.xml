@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Version Control" section_id="a146b17adb80eb4086f152c8dc9619fe" sys_domain="global" table="x_wols2_cxen_cxen_functions" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.x_wols2_cxen_cxen_functions.REL:702782ce0a0a0b1b007514c6daa62dd5</element>
+            <position>0</position>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-08-24 16:17:59</sys_created_on>
+            <sys_id>08b63dbadb80eb4086f152c8dc961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Version Control" display_value="Version Control" name="x_wols2_cxen_cxen_functions" sys_domain="global" view="Default view">a146b17adb80eb4086f152c8dc9619fe</sys_ui_section>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-08-24 16:17:59</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Version Control</caption>
+            <header>false</header>
+            <name>x_wols2_cxen_cxen_functions</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-08-24 16:16:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a146b17adb80eb4086f152c8dc9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Version Control</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+            <sys_update_name>sys_ui_section_a146b17adb80eb4086f152c8dc9619fe</sys_update_name>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-08-24 16:16:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

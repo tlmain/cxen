@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>Network Fault - Degraded Performance</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>[New] Network - Degraded Performance</short_description>
+        <show_on_template_bar>false</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-11-14 15:27:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9a6d3f45dbfdeb003affd0b2ca96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network Fault - Degraded Performance</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_template_9a6d3f45dbfdeb003affd0b2ca96195f</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-11-14 15:27:07</sys_updated_on>
+        <table>incident</table>
+        <template>short_description=[New] Network - Degraded Performance^instructions=Branch codes affected:
+Site Contact Name: 
+Contact Number[s]: 
+Router IP Address:
+
+Description of fault:
+
+Any recent network issues?
+Has there been any additional IT equipment installed recently? - Windows 10 Device set up happening! 
+Environmental factors checked?
+Did anyone logon to or start up a machine when the slowness started?
+Do users reboot PCs daily?
+Are there any field based staff on site?
+Any EUC upgrades ongoing?
+Virgin NPM checked? (If over utilisation shown, check quantities IT kit on site);
+PCs (laptops &amp; desktop):
+iGels:
+Phones (wired &amp; wireless):
+OKI printers:
+MFD printers:
+Other (PED’s, SIP Ringer, etc…)
+
+Request utilization graph and 2 hours IP accounting when logging fault with third party.
+Setup Ping Script on WUK1009137 using Bomgar^affected_system=Networks (RPN)^cmdb_ci=^close_notes=^contact_type=phone^impact=2^category=^subcategory=^close_code=</template>
+        <user/>
+        <view/>
+    </sys_template>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="CXEN Function Parameter Definitions" max_length="40" name="x_wols2_cxen_cxen_function_parameter_definitions" type="collection">
+        <element label="Choices" max_length="4000" name="u_choices" type="simple_name_values"/>
+        <element choice="3" label="Data Type" mandatory="true" max_length="255" name="u_data_type" type="string">
+            <choice>
+                <element label="Choice" value="Choice"/>
+                <element label="Date" value="Date"/>
+                <element label="Date/Time" value="Date/Time"/>
+                <element label="Email" value="Email"/>
+                <element label="File" value="File"/>
+                <element label="Float" value="Float"/>
+                <element label="Integer" value="Integer"/>
+                <element label="List" value="List"/>
+                <element label="Multiline String" value="Multiline String"/>
+                <element label="Name-Value Pairs" value="Name-Value Pairs"/>
+                <element label="Password" value="Password"/>
+                <element label="String" value="String"/>
+                <element label="Time" value="Time"/>
+                <element label="True/False" value="True/False"/>
+                <element label="URL" value="URL"/>
+            </choice>
+        </element>
+        <element label="Default Value" max_length="1024" name="u_default_value" type="string"/>
+        <element label="Description" max_length="1000" name="u_description" type="string"/>
+        <element label="Mandatory" max_length="40" name="u_mandatory" type="boolean"/>
+        <element display="true" label="Name" mandatory="true" max_length="255" name="u_name" type="string"/>
+        <element label="Variable Name" mandatory="true" max_length="255" name="u_variable_name" type="string"/>
+    </element>
+</database>

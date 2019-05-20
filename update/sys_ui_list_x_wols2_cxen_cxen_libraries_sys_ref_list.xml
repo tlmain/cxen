@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_wols2_cxen_cxen_libraries" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_name</element>
+            <list_id display_value="x_wols2_cxen_cxen_libraries" element="NULL" name="x_wols2_cxen_cxen_libraries" parent="NULL" relationship="NULL" sys_domain="global" view="3d91262337323100cacc341643990e2c">3f770112dbc39fc001767ee5bf961940</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-07-04 06:32:03</sys_created_on>
+            <sys_id>b3770112dbc39fc001767ee5bf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-07-04 06:32:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-07-04 06:32:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f770112dbc39fc001767ee5bf961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_wols2_cxen_cxen_libraries</sys_name>
+            <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+            <sys_update_name>sys_ui_list_x_wols2_cxen_cxen_libraries_sys_ref_list</sys_update_name>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-07-04 06:32:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">3d91262337323100cacc341643990e2c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

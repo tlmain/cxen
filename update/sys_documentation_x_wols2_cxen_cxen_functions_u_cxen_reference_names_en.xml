@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_cxen_reference_names" label="CXEN Reference Names" language="en" table="x_wols2_cxen_cxen_functions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_cxen_reference_names</element>
+            <help/>
+            <hint/>
+            <label>CXEN Reference Names</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_functions</name>
+            <plural>CXEN Reference Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-07-03 00:26:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fa3aea39db8f5bc001767ee5bf961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CXEN Reference Names</sys_name>
+            <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+            <sys_update_name>sys_documentation_x_wols2_cxen_cxen_functions_u_cxen_reference_names_en</sys_update_name>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-07-03 00:26:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

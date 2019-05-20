@@ -1,0 +1,3215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_framework_references" table="x_wols2_cxen_cxen_libraries" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Activities.Build.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fd7bd34db34e34001767ee5bf9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.Activities.Build.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Build.Conversion.v4.0.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43d7bd34db34e34001767ee5bf9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.Build.Conversion.v4.0.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Build.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03d7bd34db34e34001767ee5bf9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.Build.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Build.Engine.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87d7bd34db34e34001767ee5bf9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.Build.Engine.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Build.Framework.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bd7bd34db34e34001767ee5bf9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.Build.Framework.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Build.Tasks.v4.0.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fd7bd34db34e34001767ee5bf9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.Build.Tasks.v4.0.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Build.Utilities.v4.0.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0fd7bd34db34e34001767ee5bf9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.Build.Utilities.v4.0.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.CSharp.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57d7bd34db34e34001767ee5bf9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.CSharp.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Data.Entity.Build.Tasks.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13d7bd34db34e34001767ee5bf9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.Data.Entity.Build.Tasks.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Internal.Tasks.Dataflow.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fd7bd34db34e34001767ee5bf9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.Internal.Tasks.Dataflow.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.JScript.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1fd7bd34db34e34001767ee5bf9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+            <value>Microsoft.JScript.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Transactions.Bridge.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17d7fd34db34e34001767ee5bf961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:23</sys_updated_on>
+            <value>Microsoft.Transactions.Bridge.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Transactions.Bridge.Dtc.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7d7fd34db34e34001767ee5bf961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:23</sys_updated_on>
+            <value>Microsoft.Transactions.Bridge.Dtc.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.VisualBasic.Activities.Compiler.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1fd7fd34db34e34001767ee5bf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:23</sys_updated_on>
+            <value>Microsoft.VisualBasic.Activities.Compiler.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.VisualBasic.Compatibility.Data.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bd7fd34db34e34001767ee5bf96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:23</sys_updated_on>
+            <value>Microsoft.VisualBasic.Compatibility.Data.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.VisualBasic.Compatibility.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3d7fd34db34e34001767ee5bf961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:23</sys_updated_on>
+            <value>Microsoft.VisualBasic.Compatibility.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.VisualBasic.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57d7fd34db34e34001767ee5bf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:23</sys_updated_on>
+            <value>Microsoft.VisualBasic.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.VisualC.Dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3d7fd34db34e34001767ee5bf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:23</sys_updated_on>
+            <value>Microsoft.VisualC.Dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.VisualC.STLCLR.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63d7fd34db34e34001767ee5bf961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:23</sys_updated_on>
+            <value>Microsoft.VisualC.STLCLR.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft.Windows.ApplicationServer.Applications.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3d7fd34db34e34001767ee5bf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:23</sys_updated_on>
+            <value>Microsoft.Windows.ApplicationServer.Applications.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Activities.Core.Presentation.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fd7fd34db34e34001767ee5bf961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:24</sys_updated_on>
+            <value>System.Activities.Core.Presentation.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Activities.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63d7fd34db34e34001767ee5bf96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:24</sys_updated_on>
+            <value>System.Activities.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Activities.DurableInstancing.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efd7fd34db34e34001767ee5bf961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:24</sys_updated_on>
+            <value>System.Activities.DurableInstancing.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Activities.Presentation.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bd7fd34db34e34001767ee5bf961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:24</sys_updated_on>
+            <value>System.Activities.Presentation.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.AddIn.Contract.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63d7fd34db34e34001767ee5bf9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:24</sys_updated_on>
+            <value>System.AddIn.Contract.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.AddIn.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfd7fd34db34e34001767ee5bf9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:24</sys_updated_on>
+            <value>System.AddIn.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Collections.Concurrent.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fd7fd34db34e34001767ee5bf9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:24</sys_updated_on>
+            <value>System.Collections.Concurrent.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Collections.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfd7fd34db34e34001767ee5bf9619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:24</sys_updated_on>
+            <value>System.Collections.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ComponentModel.Annotations.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bd7fd34db34e34001767ee5bf9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:25</sys_updated_on>
+            <value>System.ComponentModel.Annotations.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ComponentModel.Composition.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3d7fd34db34e34001767ee5bf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:25</sys_updated_on>
+            <value>System.ComponentModel.Composition.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>system.componentmodel.composition.registration.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bd73174db34e34001767ee5bf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:25</sys_updated_on>
+            <value>system.componentmodel.composition.registration.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ComponentModel.DataAnnotations.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bd73174db34e34001767ee5bf961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:25</sys_updated_on>
+            <value>System.ComponentModel.DataAnnotations.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ComponentModel.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04e73174db34e34001767ee5bf961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:25</sys_updated_on>
+            <value>System.ComponentModel.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ComponentModel.EventBasedAsync.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08e73174db34e34001767ee5bf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:25</sys_updated_on>
+            <value>System.ComponentModel.EventBasedAsync.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Configuration.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4e73174db34e34001767ee5bf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:25</sys_updated_on>
+            <value>System.Configuration.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Configuration.Install.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08e73174db34e34001767ee5bf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:26</sys_updated_on>
+            <value>System.Configuration.Install.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Core.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8e73174db34e34001767ee5bf96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:26</sys_updated_on>
+            <value>System.Core.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Data.DataSetExtensions.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ce73174db34e34001767ee5bf96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:26</sys_updated_on>
+            <value>System.Data.DataSetExtensions.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Data.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44e73174db34e34001767ee5bf961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:26</sys_updated_on>
+            <value>System.Data.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Data.Entity.Design.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ce73174db34e34001767ee5bf96197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:26</sys_updated_on>
+            <value>System.Data.Entity.Design.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Data.Entity.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ce73174db34e34001767ee5bf9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:26</sys_updated_on>
+            <value>System.Data.Entity.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Data.Linq.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8e73174db34e34001767ee5bf9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:27</sys_updated_on>
+            <value>System.Data.Linq.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Data.OracleClient.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98e73174db34e34001767ee5bf9619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:27</sys_updated_on>
+            <value>System.Data.OracleClient.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Data.Services.Client.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58e73174db34e34001767ee5bf9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:27</sys_updated_on>
+            <value>System.Data.Services.Client.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Data.Services.Design.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ce73174db34e34001767ee5bf9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:27</sys_updated_on>
+            <value>System.Data.Services.Design.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Data.Services.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50e73174db34e34001767ee5bf9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:27</sys_updated_on>
+            <value>System.Data.Services.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Data.SqlXml.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ece77174db34e34001767ee5bf961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:27</sys_updated_on>
+            <value>System.Data.SqlXml.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Deployment.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28e77174db34e34001767ee5bf961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:27</sys_updated_on>
+            <value>System.Deployment.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Design.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60e77174db34e34001767ee5bf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:28</sys_updated_on>
+            <value>System.Design.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Device.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ace77174db34e34001767ee5bf96193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:28</sys_updated_on>
+            <value>System.Device.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Diagnostics.Contracts.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24e77174db34e34001767ee5bf961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:28</sys_updated_on>
+            <value>System.Diagnostics.Contracts.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Diagnostics.Debug.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ce77174db34e34001767ee5bf96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:28</sys_updated_on>
+            <value>System.Diagnostics.Debug.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Diagnostics.Tools.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4e77174db34e34001767ee5bf961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:28</sys_updated_on>
+            <value>System.Diagnostics.Tools.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Diagnostics.Tracing.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0e77174db34e34001767ee5bf961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:29</sys_updated_on>
+            <value>System.Diagnostics.Tracing.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.DirectoryServices.AccountManagement.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bce77174db34e34001767ee5bf9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:29</sys_updated_on>
+            <value>System.DirectoryServices.AccountManagement.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.DirectoryServices.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4e77174db34e34001767ee5bf9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:29</sys_updated_on>
+            <value>System.DirectoryServices.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.DirectoryServices.Protocols.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78e77174db34e34001767ee5bf9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:29</sys_updated_on>
+            <value>System.DirectoryServices.Protocols.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Drawing.Design.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05e7b174db34e34001767ee5bf96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:29</sys_updated_on>
+            <value>System.Drawing.Design.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Drawing.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89e7b174db34e34001767ee5bf961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:30</sys_updated_on>
+            <value>System.Drawing.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Dynamic.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81e7b174db34e34001767ee5bf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:30</sys_updated_on>
+            <value>System.Dynamic.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Dynamic.Runtime.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0de7b174db34e34001767ee5bf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:30</sys_updated_on>
+            <value>System.Dynamic.Runtime.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.EnterpriseServices.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41e7b174db34e34001767ee5bf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:30</sys_updated_on>
+            <value>System.EnterpriseServices.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.EnterpriseServices.Thunk.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19e7b174db34e34001767ee5bf96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:30</sys_updated_on>
+            <value>System.EnterpriseServices.Thunk.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.EnterpriseServices.Wrapper.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dde7b174db34e34001767ee5bf96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:31</sys_updated_on>
+            <value>System.EnterpriseServices.Wrapper.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Globalization.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99e7b174db34e34001767ee5bf96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:31</sys_updated_on>
+            <value>System.Globalization.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.IdentityModel.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55e7b174db34e34001767ee5bf9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:31</sys_updated_on>
+            <value>System.IdentityModel.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.IdentityModel.Selectors.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91e7b174db34e34001767ee5bf9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:31</sys_updated_on>
+            <value>System.IdentityModel.Selectors.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.IdentityModel.Services.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1e7b174db34e34001767ee5bf9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:31</sys_updated_on>
+            <value>System.IdentityModel.Services.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.IO.Compression.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6de7f174db34e34001767ee5bf961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:32</sys_updated_on>
+            <value>System.IO.Compression.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.IO.Compression.FileSystem.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1e7f174db34e34001767ee5bf961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:32</sys_updated_on>
+            <value>System.IO.Compression.FileSystem.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.IO.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ade7f174db34e34001767ee5bf961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:32</sys_updated_on>
+            <value>System.IO.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.IO.Log.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ade7f174db34e34001767ee5bf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:32</sys_updated_on>
+            <value>System.IO.Log.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Linq.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31e7f174db34e34001767ee5bf96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:32</sys_updated_on>
+            <value>System.Linq.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Linq.Expressions.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35e7f174db34e34001767ee5bf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:33</sys_updated_on>
+            <value>System.Linq.Expressions.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Linq.Parallel.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9e7f174db34e34001767ee5bf9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:33</sys_updated_on>
+            <value>System.Linq.Parallel.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Linq.Queryable.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1e7f174db34e34001767ee5bf9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:33</sys_updated_on>
+            <value>System.Linq.Queryable.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Management.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ee7f174db34e34001767ee5bf9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:33</sys_updated_on>
+            <value>System.Management.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Management.Instrumentation.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42e7f174db34e34001767ee5bf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:34</sys_updated_on>
+            <value>System.Management.Instrumentation.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Messaging.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cee73574db34e34001767ee5bf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:34</sys_updated_on>
+            <value>System.Messaging.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Net.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ae73574db34e34001767ee5bf961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:34</sys_updated_on>
+            <value>System.Net.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Net.Http.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ae73574db34e34001767ee5bf961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:34</sys_updated_on>
+            <value>System.Net.Http.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Net.Http.Rtc.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ee73574db34e34001767ee5bf961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:35</sys_updated_on>
+            <value>System.Net.Http.Rtc.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Net.Http.WebRequest.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92e73574db34e34001767ee5bf96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:35</sys_updated_on>
+            <value>System.Net.Http.WebRequest.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Net.NetworkInformation.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52e73574db34e34001767ee5bf9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:35</sys_updated_on>
+            <value>System.Net.NetworkInformation.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Net.Primitives.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dae73574db34e34001767ee5bf9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:35</sys_updated_on>
+            <value>System.Net.Primitives.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Net.Requests.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22e73574db34e34001767ee5bf9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:36</sys_updated_on>
+            <value>System.Net.Requests.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Numerics.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66e73574db34e34001767ee5bf9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:36</sys_updated_on>
+            <value>System.Numerics.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ObjectModel.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66e77574db34e34001767ee5bf96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:36</sys_updated_on>
+            <value>System.ObjectModel.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Reflection.context.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6e77574db34e34001767ee5bf961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:36</sys_updated_on>
+            <value>System.Reflection.context.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Reflection.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36e77574db34e34001767ee5bf961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:37</sys_updated_on>
+            <value>System.Reflection.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Reflection.Emit.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ae77574db34e34001767ee5bf96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:37</sys_updated_on>
+            <value>System.Reflection.Emit.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Reflection.Emit.ILGeneration.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6e77574db34e34001767ee5bf961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:37</sys_updated_on>
+            <value>System.Reflection.Emit.ILGeneration.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Reflection.Emit.Lightweight.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bae77574db34e34001767ee5bf9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:37</sys_updated_on>
+            <value>System.Reflection.Emit.Lightweight.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Reflection.Extensions.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87e77574db34e34001767ee5bf9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:38</sys_updated_on>
+            <value>System.Reflection.Extensions.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Reflection.Primitives.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fe77574db34e34001767ee5bf9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:38</sys_updated_on>
+            <value>System.Reflection.Primitives.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Resources.ResourceManager.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07e77574db34e34001767ee5bf9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:38</sys_updated_on>
+            <value>System.Resources.ResourceManager.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.Caching.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87e7b574db34e34001767ee5bf961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:38</sys_updated_on>
+            <value>System.Runtime.Caching.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3e7b574db34e34001767ee5bf961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:39</sys_updated_on>
+            <value>System.Runtime.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.DurableInstancing.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93e7b574db34e34001767ee5bf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:39</sys_updated_on>
+            <value>System.Runtime.DurableInstancing.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.Extensions.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53e7b574db34e34001767ee5bf96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:39</sys_updated_on>
+            <value>System.Runtime.Extensions.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.InteropServices.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbe7b574db34e34001767ee5bf961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:39</sys_updated_on>
+            <value>System.Runtime.InteropServices.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.InteropServices.WindowsRuntime.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2be7b574db34e34001767ee5bf961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:40</sys_updated_on>
+            <value>System.Runtime.InteropServices.WindowsRuntime.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.Numerics.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27e7b574db34e34001767ee5bf9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:40</sys_updated_on>
+            <value>System.Runtime.Numerics.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.Remoting.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7e7f574db34e34001767ee5bf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:40</sys_updated_on>
+            <value>System.Runtime.Remoting.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.Serialization.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bbe7f574db34e34001767ee5bf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:41</sys_updated_on>
+            <value>System.Runtime.Serialization.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.Serialization.Formatters.Soap.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33e7f574db34e34001767ee5bf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:41</sys_updated_on>
+            <value>System.Runtime.Serialization.Formatters.Soap.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.Serialization.Json.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ffe7f574db34e34001767ee5bf961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:41</sys_updated_on>
+            <value>System.Runtime.Serialization.Json.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.Serialization.Primitives.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3e7f574db34e34001767ee5bf961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:42</sys_updated_on>
+            <value>System.Runtime.Serialization.Primitives.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.Serialization.Xml.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cf7f574db34e34001767ee5bf9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:42</sys_updated_on>
+            <value>System.Runtime.Serialization.Xml.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.WindowsRuntime.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84f7f574db34e34001767ee5bf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:42</sys_updated_on>
+            <value>System.Runtime.WindowsRuntime.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Runtime.WindowsRuntime.UI.Xaml.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04f73974db34e34001767ee5bf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:42</sys_updated_on>
+            <value>System.Runtime.WindowsRuntime.UI.Xaml.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Security.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcf73974db34e34001767ee5bf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:43</sys_updated_on>
+            <value>System.Security.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Security.Principal.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98f73974db34e34001767ee5bf961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:43</sys_updated_on>
+            <value>System.Security.Principal.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Activation.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58f73974db34e34001767ee5bf961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:43</sys_updated_on>
+            <value>System.ServiceModel.Activation.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Activities.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60f73974db34e34001767ee5bf9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:44</sys_updated_on>
+            <value>System.ServiceModel.Activities.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Channels.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0f73974db34e34001767ee5bf9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:44</sys_updated_on>
+            <value>System.ServiceModel.Channels.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Discovery.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>acf73974db34e34001767ee5bf9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:44</sys_updated_on>
+            <value>System.ServiceModel.Discovery.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64f73974db34e34001767ee5bf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:44</sys_updated_on>
+            <value>System.ServiceModel.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Duplex.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcf77974db34e34001767ee5bf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:45</sys_updated_on>
+            <value>System.ServiceModel.Duplex.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Http.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4f77974db34e34001767ee5bf96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:45</sys_updated_on>
+            <value>System.ServiceModel.Http.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Internals.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34f77974db34e34001767ee5bf96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:45</sys_updated_on>
+            <value>System.ServiceModel.Internals.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.NetTcp.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0f77974db34e34001767ee5bf961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:46</sys_updated_on>
+            <value>System.ServiceModel.NetTcp.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Primitives.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05f77974db34e34001767ee5bf961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:46</sys_updated_on>
+            <value>System.ServiceModel.Primitives.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Routing.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45f77974db34e34001767ee5bf9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:46</sys_updated_on>
+            <value>System.ServiceModel.Routing.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Security.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89f77974db34e34001767ee5bf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:47</sys_updated_on>
+            <value>System.ServiceModel.Security.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.ServiceMoniker40.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19f77974db34e34001767ee5bf9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:47</sys_updated_on>
+            <value>System.ServiceModel.ServiceMoniker40.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.WasHosting.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddf77974db34e34001767ee5bf9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:47</sys_updated_on>
+            <value>System.ServiceModel.WasHosting.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceModel.Web.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51f7b974db34e34001767ee5bf961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:47</sys_updated_on>
+            <value>System.ServiceModel.Web.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.ServiceProcess.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adf7b974db34e34001767ee5bf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:48</sys_updated_on>
+            <value>System.ServiceProcess.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Text.Encoding.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25f7b974db34e34001767ee5bf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:48</sys_updated_on>
+            <value>System.Text.Encoding.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Text.Encoding.Extensions.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1f7b974db34e34001767ee5bf961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:48</sys_updated_on>
+            <value>System.Text.Encoding.Extensions.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Text.RegularExpressions.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5f7b974db34e34001767ee5bf961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:49</sys_updated_on>
+            <value>System.Text.RegularExpressions.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Threading.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9f7b974db34e34001767ee5bf9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:49</sys_updated_on>
+            <value>System.Threading.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Threading.Tasks.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79f7b974db34e34001767ee5bf9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:49</sys_updated_on>
+            <value>System.Threading.Tasks.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Threading.Tasks.Parallel.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1f7b974db34e34001767ee5bf9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:50</sys_updated_on>
+            <value>System.Threading.Tasks.Parallel.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Threading.Timer.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ef7b974db34e34001767ee5bf9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:50</sys_updated_on>
+            <value>System.Threading.Timer.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Transactions.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cef7f974db34e34001767ee5bf96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:50</sys_updated_on>
+            <value>System.Transactions.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.Abstractions.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6f7f974db34e34001767ee5bf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:51</sys_updated_on>
+            <value>System.Web.Abstractions.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.ApplicationServices.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96f73d74db34e34001767ee5bf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:51</sys_updated_on>
+            <value>System.Web.ApplicationServices.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.DataVisualization.Design.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ef73d74db34e34001767ee5bf961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:51</sys_updated_on>
+            <value>System.Web.DataVisualization.Design.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.DataVisualization.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ef77d74db34e34001767ee5bf96198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:52</sys_updated_on>
+            <value>System.Web.DataVisualization.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2f7bd74db34e34001767ee5bf9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:52</sys_updated_on>
+            <value>System.Web.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.DynamicData.Design.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22f7b1b4db34e34001767ee5bf9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:52</sys_updated_on>
+            <value>System.Web.DynamicData.Design.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.DynamicData.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ef7b5b4db34e34001767ee5bf961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:53</sys_updated_on>
+            <value>System.Web.DynamicData.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.Entity.Design.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fef7f5b4db34e34001767ee5bf961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:53</sys_updated_on>
+            <value>System.Web.Entity.Design.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.Entity.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ef7f5b4db34e34001767ee5bf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:53</sys_updated_on>
+            <value>System.Web.Entity.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.Extensions.Design.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36f7f5b4db34e34001767ee5bf9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:54</sys_updated_on>
+            <value>System.Web.Extensions.Design.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.Extensions.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ff7f5b4db34e34001767ee5bf9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:54</sys_updated_on>
+            <value>System.Web.Extensions.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.Mobile.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bf739b4db34e34001767ee5bf961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:54</sys_updated_on>
+            <value>System.Web.Mobile.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.RegularExpressions.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bf739b4db34e34001767ee5bf96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:55</sys_updated_on>
+            <value>System.Web.RegularExpressions.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.Routing.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bf739b4db34e34001767ee5bf96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:55</sys_updated_on>
+            <value>System.Web.Routing.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Web.Services.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bf739b4db34e34001767ee5bf961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:55</sys_updated_on>
+            <value>System.Web.Services.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Windows.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7f739b4db34e34001767ee5bf961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:56</sys_updated_on>
+            <value>System.Windows.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Windows.Forms.DataVisualization.Design.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ff739b4db34e34001767ee5bf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:56</sys_updated_on>
+            <value>System.Windows.Forms.DataVisualization.Design.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Windows.Forms.DataVisualization.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67f739b4db34e34001767ee5bf9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:56</sys_updated_on>
+            <value>System.Windows.Forms.DataVisualization.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Windows.Forms.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bf739b4db34e34001767ee5bf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:57</sys_updated_on>
+            <value>System.Windows.Forms.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Workflow.Activities.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ff779b4db34e34001767ee5bf96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:57</sys_updated_on>
+            <value>System.Workflow.Activities.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Workflow.ComponentModel.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bf779b4db34e34001767ee5bf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:57</sys_updated_on>
+            <value>System.Workflow.ComponentModel.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Workflow.Runtime.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3f779b4db34e34001767ee5bf961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:58</sys_updated_on>
+            <value>System.Workflow.Runtime.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.WorkflowServices.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c0879b4db34e34001767ee5bf961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:58</sys_updated_on>
+            <value>System.WorkflowServices.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Xaml.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc0879b4db34e34001767ee5bf9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:58</sys_updated_on>
+            <value>System.Xaml.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Xaml.Hosting.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c0879b4db34e34001767ee5bf9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:59</sys_updated_on>
+            <value>System.Xaml.Hosting.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.XML.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>940879b4db34e34001767ee5bf9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:59</sys_updated_on>
+            <value>System.XML.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Xml.Linq.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:03:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5808b9b4db34e34001767ee5bf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:03:00</sys_updated_on>
+            <value>System.Xml.Linq.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Xml.ReaderWriter.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:03:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d008b9b4db34e34001767ee5bf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:03:00</sys_updated_on>
+            <value>System.Xml.ReaderWriter.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Xml.Serialization.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:03:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a408b9b4db34e34001767ee5bf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:03:00</sys_updated_on>
+            <value>System.Xml.Serialization.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Xml.XDocument.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:03:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a408b9b4db34e34001767ee5bf9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:03:01</sys_updated_on>
+            <value>System.Xml.XDocument.dll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_framework_references</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System.Xml.XmlSerializer.dll</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sequence/>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:03:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc08b9b4db34e34001767ee5bf9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:03:01</sys_updated_on>
+            <value>System.Xml.XmlSerializer.dll</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_framework_references</element>
+            <name>x_wols2_cxen_cxen_libraries</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-09-24 18:02:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>cbd7bd34db34e34001767ee5bf9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_framework_references</sys_name>
+            <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+            <sys_update_name>sys_choice_x_wols2_cxen_cxen_libraries_u_framework_references</sys_update_name>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-09-24 18:02:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

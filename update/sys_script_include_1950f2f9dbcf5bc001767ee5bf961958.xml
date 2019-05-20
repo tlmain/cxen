@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_wols2_cxen.CXEN_Engine</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Contains methods and classes used for configuration and communication with the abstraction layer </description>
+        <name>CXEN_Engine</name>
+        <script><![CDATA[var CXEN_Engine = Class.create();
+CXEN_Engine.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	CURRENT_CONFIG: function() {
+		var configs = new GlideRecord('x_wols2_cxen_cxen_config');
+		configs.addQuery('u_active=true');
+		configs.query();
+		if (configs.next()) {
+			return configs;
+		} else {
+			return null;			
+		}
+	},
+	/* REST */
+	PerformREST: function(_resource, _httpMethod, _params, _body) {
+		try {
+			if (!_params) {
+				_params = [];
+			}
+			//Build message
+			var req = new sn_ws.RESTMessageV2('x_wols2_cxen.CXen', 'default');
+			var ep = req.getEndpoint();
+			req.setEndpoint(ep + _resource);
+			req.setHttpMethod(_httpMethod);
+			//Is body a string or an object?
+			if (_body) {
+				if (typeof _body != 'string') {
+					_body = new global.JSON().encode(_body);
+				}
+				req.setRequestBody(_body);
+			}
+			for (var i in _params) {
+				req.setQueryParameter(_params[i].name, _params[i].value);
+			}
+			//Execute
+			var resp = req.execute();
+			var json = JSON.parse(resp.getBody());
+			return {
+				status: resp.getStatusCode(),
+				'body': json
+			};
+		} catch (e) {
+			return {
+				status: 500,
+				'body': e
+			};
+		}
+	},
+	GetBuild: function() {
+		var resp = this.PerformREST('configuration/GetBuild', 'GET', null);
+		if (resp.status == 200) {
+			return resp.body;
+		} else {
+			return -1;
+		}
+	},
+	TestConnection: function() {
+		return this.GetBuild() != -1;
+	},
+	/* Data Manipulation */
+	SimplifyGlideRecord: function(_record) {
+		var jsonValues = {
+		};
+		for (var i in _record) {
+			try
+			{
+				var val = _record[i];
+				var valT = typeof val;
+				if (valT != "undefined" && valT != "function" && valT != "unknown") {
+					jsonValues[i.toString()] = val.toString();
+				}
+			}catch(e){}
+			}
+			return jsonValues;
+		},
+		GetFieldValues: function(_sysIds, _table, _displayField) {
+			var values = [];
+			for (var i in _sysIds) {
+				values.push(_sysIds[i].getValue(_displayField));
+			}
+			return values;
+		},
+		SetFieldChoices: function(_table, _field, _choices) {
+			var remChoices = new GlideRecord('sys_choice');
+			remChoices.addQuery('name', _table);
+			remChoices.addQuery('element', _field);
+			remChoices.deleteMultiple();
+			//Add new
+			for (var i in _choices) {
+				var choice = _choices[i];
+				var newChoice = new GlideRecord('sys_choice');
+				newChoice.name = _table;
+				newChoice.element = _field;
+				newChoice.label = choice.name;
+				newChoice.value = choice.value;
+				newChoice.insert();
+			}
+		},
+		ConvertArrayToChoiceList: function(_array, _header) {
+			var choices = [];
+			for (var i in _array) {
+				choices.push({
+					name: (_header ? _header : '') + _array[i],
+					value: _array[i]
+				});
+			}
+			return choices;
+		},
+		
+		/* Libraries */
+		BuildLibrary: function(_libraryRecord, _overwriteExisting, _overwriteNewer) {
+			var resp = this.PerformREST('libraries/BuildLibrary', 'POST', null, {
+				overwriteExisting: _overwriteExisting,
+				overwriteNewer: _overwriteNewer,
+				libraryRecord: this.SimplifyGlideRecord(_libraryRecord)
+			});
+			//Result?
+			if (resp.status == 200) {
+				//OK processing, compilation results?
+				_libraryRecord.u_successful_build = resp.body.success;
+				_libraryRecord.u_build_errors = resp.body.errors;
+				_libraryRecord.u_build_warnings = resp.body.warnings;
+				_libraryRecord.u_build_version = resp.body.success ? _libraryRecord.u_version : '';
+				_libraryRecord.u_abstraction_structure = resp.body.structure;
+			} else {
+				//Processing failed
+				_libraryRecord.u_successful_build = false;
+				_libraryRecord.u_build_errors = resp.body.errors;
+				_libraryRecord.u_build_warnings = resp.body.warnings;
+				_libraryRecord.u_build_errors = "Processing error, server returned " + resp.status + ": " + resp.body;
+				_libraryRecord.u_abstraction_structure = resp.body.structure;
+			}
+			//Modify record
+			_libraryRecord.update();
+			return resp;
+		},
+		ExecuteMethod: function(_libraryName, _methodPath, _parameters, _user, _pass) {
+			//Build request
+			var req = {
+				executionID: gs.generateGUID(), //Create newexecution ID (not tied to function result)
+				libraryName: _libraryName,
+				methodPath: _methodPath,
+				parameters: _parameters,
+				username: _user,
+				password: _pass
+			};
+			var resp = this.PerformREST('libraries/ExecuteMethod', 'POST', null, req);
+			//Result?
+			if (resp.status == 200) {
+				//OK processing, compilation results?
+				return resp.body;
+			} else {
+				return null;
+			}
+		},
+			ExecuteMethodAsync: function(_libraryName, _methodPath, _parameters, _user, _pass, _executionID) {
+			//Build request
+			var req = {
+				executionID: _executionID,
+				libraryName: _libraryName,
+				methodPath: _methodPath,
+				parameters: _parameters,
+				username: _user,
+				password: _pass
+			};
+			var resp = this.PerformREST('libraries/ExecuteMethodAsync', 'POST', null, req);
+			//Result?
+			if (resp.status == 200) {
+				//OK processing, compilation results?
+				return true;
+			} else {
+				return false;
+			}
+		},
+			InitAsyncMethod: function(_callbackMethod, _libraryName, _methodPath, _parameters, _user, _pass) {
+
+			//Init new async task record
+			var asyncTaskRecord = new GlideRecord('x_wols2_cxen_cxen_async_task');	
+			asyncTaskRecord.u_calling_abstraction = 
+				JSON.stringify({
+				libraryName: _libraryName,
+				methodPath: _methodPath, 
+				username: _user,
+				password: _pass			
+			});
+			asyncTaskRecord.u_parameter_data = JSON.stringify(_parameters);
+			asyncTaskRecord.u_callback_method = _callbackMethod;
+		    asyncTaskRecord.u_destroy_when_complete = true;
+			asyncTaskRecord.update();
+			return asyncTaskRecord.sys_id;	
+		},
+		ExecuteCodeAsync: function(_code, _namespace, _refNamespaces, _returnValue, _parameters, _fwkRefs, _cxenRefs, _extRefs, _buildOnly, _executionID) {
+			//Build request
+			var req = {
+				executionID: _executionID + '',
+				code: _code,
+				ns: _namespace,
+				refNamespaces: _refNamespaces,
+				returnValue: _returnValue,
+				parameters: _parameters,
+				framework_references: _fwkRefs,
+				cxen_references_names: _cxenRefs,
+				external_references: _extRefs,
+				buildOnly: _buildOnly
+			};
+			var resp = this.PerformREST('code/ExecuteCodeAsync', 'POST', null, req);
+			//Result?
+			return (resp.status == 200) ? resp.body : null;
+		},
+		CancelCodeExecution: function(_executionID) {
+			var resp = this.PerformREST('code/CancelExecution', 'POST', [{name :'executionID', value: _executionID}]);
+			//Result?
+			return (resp.status == 200) ? resp.body : null;
+		},
+		CancelAllCodeExecution: function() {
+			var resp = this.PerformREST('code/CancelAllExecution', 'POST');
+			//Result?
+			return (resp.status == 200) ? resp.body : null;
+		},
+		UpdateLocalFunctionSource: function(_functionRecord) {
+			//Would just send the whole thing but we need to parse out the param defs
+			var params = [];
+			var paramDefs = new GlideRecord('x_wols2_cxen_cxen_function_parameter_definitions');			paramDefs.addQuery("sys_id","IN",_functionRecord.u_parameter_definitions);
+			paramDefs.query();
+			while(paramDefs.next())
+				{
+				params.push({
+					name: paramDefs.u_name.toString(),
+					variableName: paramDefs.u_variable_name.toString(),
+					dataType: paramDefs.u_data_type.toString(),
+					defaultValue: paramDefs.u_default_value.toString(),
+					choices: new global.JSON().decode(paramDefs.u_choices.toString())
+				});
+			}
+			var req = {
+				name: _functionRecord.u_name.toString(),
+				code:  _functionRecord.u_code.toString(),
+				ns: _functionRecord.u_namespace.toString(),
+				returnValue: !!_functionRecord.u_return_value,
+				frameworkReferences: _functionRecord.u_framework_references.toString(),
+				cxenReferences: _functionRecord.u_cxen_references.toString(),
+				externalReferences: _functionRecord.u_external_references.toString(),
+				namespaceReferences: _functionRecord.u_namespace_references.toString(),
+				parameterDefinitions: params
+			};
+			var resp = this.PerformREST('functions/UpdateFunction', 'POST', null, req);
+			return resp;
+			
+		},
+		ExecuteFunction: function(funcSysId, params, buildOnly)
+		{
+			//Get function record
+			var functionRecord = new GlideRecord('x_wols2_cxen_cxen_functions');
+			functionRecord.addQuery('sys_id', this.getParameter("sysparm_funcSysId"));
+			functionRecord.query();
+			functionRecord.next();
+			//See if async task record exists
+			var existing = new GlideRecord('x_wols2_cxen_cxen_async_task');
+			existing.addQuery('u_calling_function', functionRecord.sys_id);
+			existing.addQuery('sys_created_by',gs.getUserName());
+			existing.addQuery('u_allow_replacement',true);
+			existing.query();
+			existing.deleteMultiple();
+			//Init new async task record
+			var asyncTaskRecord = new GlideRecord('x_wols2_cxen_cxen_async_task');	
+			asyncTaskRecord.u_calling_function = functionRecord.sys_id;			
+			asyncTaskRecord.u_parameter_data = this.getParameter("sysparm_params");
+			asyncTaskRecord.u_compile_only = this.getParameter("sysparm_buildOnly");
+			asyncTaskRecord.update();
+			return asyncTaskRecord.sys_id;
+		},
+		GetLibraryStructure: function(_libraryRecord) {
+			var resp = this.PerformREST('libraries/GetLibraryStructure', 'GET', [{
+				name: 'name',
+				value: _libraryRecord.u_name
+			}], null);
+			//Result?
+			if (resp.status == 200) {
+				//OK processing, compilation results?
+				return resp.body;
+			} else {
+				return null;
+			}
+		},
+		/* Framework */
+		GetInstalledFrameworkVersions: function() {
+			var resp = this.PerformREST('framework/GetInstalled', 'GET', null);
+			if (resp.status == 200) {
+				return resp.body.available;
+			} else {
+				return [];
+			}
+		},
+		GetCurrentFramework: function() {
+			var resp = this.PerformREST('framework/GetCurrent', 'GET');
+			if (resp.status == 200) {
+				return resp.body;
+			} else {
+				return null;
+			}
+		},
+		GetFrameworkDetails: function(_version) {
+			var resp = this.PerformREST('framework/GetDetails', 'GET', [{
+				name: 'version',
+				value: _version
+			}]);
+			if (resp.status == 200) {
+				return resp.body;
+			} else {
+				return null;
+			}
+		},
+		SetFrameworkVersion: function(_version) {
+			var resp = this.PerformREST('framework/SetCurrent', 'POST', [{
+				name: 'version',
+				value: _version
+			}]);
+			if (resp.status == 200) {
+				return resp.body;
+			} else {
+				return null;
+			}
+		},
+			SetLoggingCallback: function(_enabled) {
+			var resp = this.PerformREST('configuration/SetLogCallback', 'POST', [{
+				name: 'enabled',
+				value: _enabled
+			}]);
+			if (resp.status == 200) {
+				return resp.body;
+			} else {
+				return null;
+			}
+		},
+		GetFunctionParameterDefinitionRecords: function(paramDefSysIds)
+		{			
+			var o = [];		
+			var def = new GlideRecord("x_wols2_cxen_cxen_function_parameter_definitions");
+			def.addQuery("sys_id","IN", paramDefSysIds);			
+			def.orderBy('u_name');
+			def.query();
+			while(def.next()) {o.push(JSON.stringify(this.SimplifyGlideRecord(def)));}
+				return  o ;
+			},
+			type: 'CXEN_Engine'
+		});
+
+/* ABSTRACTION MANAGER BACKUP 
+var CXEN_Abstraction_Manager = Class.create();
+CXEN_Abstraction_Manager.prototype = {
+    initialize: function() {
+    },
+	CreateClassAbstraction: function(_classDefinition, _skipInterface) {
+		//Create class interface
+		var code = _skipInterface ? "" : _classDefinition.name + ": {\r\n ";
+			//Create methods
+			for (var m in _classDefinition.methods) {
+				code += this.CreateMethodAbstraction(_classDefinition.methods[m]);
+				code += this.CreateAsyncMethodAbstraction(_classDefinition.methods[m]);
+			}
+			//Create child classes
+			for (var c in _classDefinition.classes) {
+				code += this.CreateClassAbstraction(_classDefinition.classes[c], false);
+			}
+			//Close
+			code += _skipInterface ? "" : "},\r\n";
+			return code;
+		},
+		CreateMethodAbstraction: function(_methodDefinition) {
+			//Build comment + headers components
+			var code = this.CreateMethodComment(_methodDefinition) +
+			"\r\n" +
+			this.CreateMethodHeader(_methodDefinition) +
+			"\r\n{ var params = [";
+				//Build dynamic parameter objects
+				for (var p in _methodDefinition.parameters) {
+					code += this.CreateParameterAbstraction(_methodDefinition.parameters[p]) + ",\r\n";
+				}
+				code += "];\r\n";
+				//Build link
+				code += "return new x_wols2_cxen.CXEN_Engine().ExecuteMethod('" + _methodDefinition.library + "','" + _methodDefinition.path + "',params,USER,PASSWORD);\r\n},";
+				return code;
+			},
+	
+			CreateAsyncMethodAbstraction: function(_methodDefinition) {
+			//Build comment + headers components
+			var code = this.CreateMethodComment(_methodDefinition) +
+			"\r\n" +
+			this.CreateAsyncMethodHeader(_methodDefinition) +
+			"\r\n{ var params = [";
+				//Build dynamic parameter objects
+				for (var p in _methodDefinition.parameters) {
+					code += this.CreateParameterAbstraction(_methodDefinition.parameters[p]) + ",\r\n";
+				}
+				code += "];\r\n";
+				//Build link
+				code += "return new x_wols2_cxen.CXEN_Engine().InitAsyncMethod(_callbackMethod, '" + _methodDefinition.library + "','" + _methodDefinition.path + "',params,USER,PASSWORD);\r\n},";
+				return code;
+			},
+	
+	
+	
+			CreateMethodComment: function(_methodDefinition) {
+				var params = [];
+				for (var p in _methodDefinition.parameters) {
+					var param = _methodDefinition.parameters[p];
+					params.push(param.valueType + " " + param.name + (param.hasDefault ? (" = " + param.defaultValue) : ""));
+				}
+				return "//public static " + _methodDefinition.returnType + "(" + params.join(", ") + ")";
+			},
+	
+	
+			CreateMethodHeader: function(_methodDefinition) {
+				var params = [];
+				for (var p in _methodDefinition.parameters) {
+					params.push(_methodDefinition.parameters[p].name);
+				}
+				return _methodDefinition.name + ": function(" + params.join(", ") + ")";
+			},
+	
+	
+				CreateAsyncMethodHeader: function(_methodDefinition) {
+				var params = [];
+				for (var p in _methodDefinition.parameters) {
+					params.push(_methodDefinition.parameters[p].name);
+				}
+				return _methodDefinition.name + "_Async: function(_callbackMethod" + (params.length > 0 ? ", " : "") + params.join(", ") + ")";
+			},
+	
+	
+	
+			CreateParameterAbstraction: function(_parameterDefinition) {
+				return "{name: '" + _parameterDefinition.name + "', type: '" + _parameterDefinition.valueType + "', value: " + _parameterDefinition.name + ", defaultValueSupplied: " + _parameterDefinition.hasDefault + ", defaultValue: " + JSON.stringify(_parameterDefinition.defaultValue) + ", valueSupplied: " + _parameterDefinition.name + " !== undefined}";
+				},
+	
+				BuildAbstractionScript: function() {
+					//Header
+					var code = "// GENERATED BY CXEN ABSTRACTION LAYER //\r\n// DO NOT MODIFY! //\r\nvar USER;\r\nvar PASSWORD;\r\nvar CXen = Class.create(); CXen.prototype = Object.extendsObject(AbstractAjaxProcessor, {initialize: function(_u,_p) { USER=_u; PASSWORD=_p;},\r\n";
+						//Get all successfully built library records
+						var libraryRecord = new GlideRecord('x_wols2_cxen_cxen_libraries');
+						libraryRecord.addQuery('u_successful_build', true);
+						libraryRecord.query();
+						while (libraryRecord.next()) {
+							//Add body of library
+							code += this.CreateClassAbstraction(new global.JSON().decode(libraryRecord.u_abstraction_structure), false);
+							//Footer
+						}
+						code += "type: 'CXen'});";
+					gs.info(code);
+						//Update script
+						var as = new GlideRecord('sys_script_include');
+						as.addQuery('api_name', 'global.CXen');
+						as.query();
+						if (as.next()) {
+							//Exists
+							as.script = code;
+							as.access = "public";
+							as.client_callable = true;
+							as.description = "Dynamically built abstraction script allowing JS calls to C# library methods";
+							as.update();
+						}
+					},
+    type: 'CXEN_Abstraction_Manager'
+};
+*/]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-07-05 08:53:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1950f2f9dbcf5bc001767ee5bf961958</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>CXEN_Engine</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_script_include_1950f2f9dbcf5bc001767ee5bf961958</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-09-25 19:31:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

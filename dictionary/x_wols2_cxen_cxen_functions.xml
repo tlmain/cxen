@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="CXEN Functions" max_length="40" name="x_wols2_cxen_cxen_functions" type="collection">
+        <element label="Available" max_length="40" name="u_available" type="boolean"/>
+        <element label="Code" max_length="10000" name="u_code" type="string_full_utf8"/>
+        <element label="CXEN References" max_length="4000" name="u_cxen_references" reference="x_wols2_cxen_cxen_libraries" type="glide_list"/>
+        <element label="CXEN Reference Names" max_length="5000" name="u_cxen_reference_names" read_only="true" type="string"/>
+        <element label="Description" max_length="5000" name="u_description" type="string"/>
+        <element label="Execution Password" max_length="255" name="u_execution_password" type="password2"/>
+        <element label="Execution Username" max_length="255" name="u_execution_username" type="string"/>
+        <element label="External References" max_length="5000" name="u_external_references" type="string"/>
+        <element label="Framework References" max_length="4000" name="u_framework_references" type="glide_list"/>
+        <element attributes="readonly_clickthrough=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var lastRunTask = new GlideRecord(&quot;x_wols2_cxen_cxen_async_task&quot;);&#13;&#10;&#9;lastRunTask.addQuery(&quot;sys_created_by&quot;, gs.getUserName());&#13;&#10;&#9;lastRunTask.addQuery(&quot;u_calling_function&quot;, current.sys_id);&#13;&#10;&#9;lastRunTask.query();&#13;&#10;&#9;return lastRunTask.next() ? lastRunTask.sys_id : null;&#13;&#10;})(current);" label="Last Execution" max_length="32" name="u_last_execution" read_only="true" reference="x_wols2_cxen_cxen_async_task" type="reference" virtual="true"/>
+        <element display="true" label="Name" mandatory="true" max_length="255" name="u_name" type="string"/>
+        <element label="Namespace" mandatory="true" max_length="255" name="u_namespace" type="string"/>
+        <element label="Namespace References" max_length="5000" name="u_namespace_references" type="string"/>
+        <element label="Parameter Definitions" max_length="4000" name="u_parameter_definitions" reference="x_wols2_cxen_cxen_function_parameter_definitions" type="glide_list"/>
+        <element label="Return Value" max_length="40" name="u_return_value" type="boolean"/>
+        <element dependent="u_visibility_dependancy" dependent_on_field="u_visibility_dependancy" element_reference="true" label="Visibility" max_length="4000" name="u_visibility" type="conditions" use_dependent_field="true"/>
+        <element default="sys_user" label="Visibility Dependency" max_length="80" name="u_visibility_dependancy" read_only="true" type="table_name"/>
+        <index name="index">
+            <element name="u_last_execution"/>
+        </index>
+    </element>
+</database>

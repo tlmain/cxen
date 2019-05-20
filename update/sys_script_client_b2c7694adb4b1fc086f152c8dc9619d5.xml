@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_cxen_reference_names</field>
+        <global>true</global>
+        <messages/>
+        <name>CXEN_FunctionExecution</name>
+        <order/>
+        <script/>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-07-03 14:16:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2c7694adb4b1fc086f152c8dc9619d5</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>CXEN_FunctionExecution</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_script_client_b2c7694adb4b1fc086f152c8dc9619d5</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-07-18 15:14:02</sys_updated_on>
+        <table>x_wols2_cxen_cxen_functions</table>
+        <type/>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

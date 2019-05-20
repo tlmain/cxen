@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>CXEN_LogFrame.xml</formatter>
+        <name>CXEN_LogFrame</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-07-06 17:33:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5122bd43db07170486f152c8dc96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CXEN_LogFrame</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_ui_formatter_5122bd43db07170486f152c8dc96190e</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-07-06 17:33:50</sys_updated_on>
+        <table>x_wols2_cxen_cxen_function_results</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>CXEN_LogFrame</name>
+        <scoped_name>x_wols2_cxen_CXEN_LogFrame</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-07-06 17:34:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b752f587db07170486f152c8dc961987</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>CXEN_LogFrame</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_ui_macro_b752f587db07170486f152c8dc961987</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-07-19 17:37:49</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<j:jelly
+	xmlns:j="jelly:core"
+	xmlns:g="glide"
+	xmlns:g2="null"
+	xmlns:j2="null" trim="false">
+		<g2:evaluate var="jvar_logAddress" jelly="true" object="true">
+			var eng = new CXEN_Engine();
+			eng.CURRENT_CONFIG().u_log_address;				
+		</g2:evaluate>	
+	<a href="$[jvar_logAddress]" target="_blank">Open Log</a>
+	<iframe src="$[jvar_logAddress]" frameBorder="0" height="500" width="100%"/>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

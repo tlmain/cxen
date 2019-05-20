@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>POST</http_method>
+        <name>UpdatedExecutionState</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	try
+	{
+		//Now find the function result record if it exists
+		var task = new GlideRecord("x_wols2_cxen_cxen_async_task");
+		task.addQuery("sys_id",request.body.data.executionID);
+		task.query();
+		if (task.next())
+			{
+			task.u_state = request.body.data.state;
+			task.update();
+		}
+	}
+	catch(e)
+	{
+		response.setBody({result: "FAILED", error: e});
+		}
+	})(request, response);]]></operation_script>
+        <operation_uri>/api/x_wols2_cxen/cxen_callback/updatedExecutionState</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/updatedExecutionState</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-07-26 13:45:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>efad7795db6b930886f152c8dc9619bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>UpdatedExecutionState</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_ws_operation_efad7795db6b930886f152c8dc9619bf</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-07-26 14:06:32</sys_updated_on>
+        <web_service_definition display_value="CXen_Callback">85235a63db9753c486f152c8dc9619d3</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

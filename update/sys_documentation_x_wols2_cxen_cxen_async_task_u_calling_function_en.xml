@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_calling_function" label="Calling Function" language="en" table="x_wols2_cxen_cxen_async_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_calling_function</element>
+            <help/>
+            <hint/>
+            <label>Calling Function</label>
+            <language>en</language>
+            <name>x_wols2_cxen_cxen_async_task</name>
+            <plural>Calling Functions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>AAJ9045</sys_created_by>
+            <sys_created_on>2018-07-25 18:43:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8d587bc1db63130886f152c8dc9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Calling Function</sys_name>
+            <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+            <sys_update_name>sys_documentation_x_wols2_cxen_cxen_async_task_u_calling_function_en</sys_update_name>
+            <sys_updated_by>AAJ9045</sys_updated_by>
+            <sys_updated_on>2018-07-25 18:43:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

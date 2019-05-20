@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <media_type/>
+        <name>CXEN_CodeEditor</name>
+        <scoped_name>x_wols2_cxen_CXEN_CodeEditor</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-08-07 17:16:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f2016a51dbffd38886f152c8dc96193c</sys_id>
+        <sys_mod_count>86</sys_mod_count>
+        <sys_name>CXEN_CodeEditor</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_ui_macro_f2016a51dbffd38886f152c8dc96193c</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-08-21 19:26:55</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+<j:jelly
+	xmlns:j="jelly:core"
+	xmlns:g="glide"
+	xmlns:g2="null"
+	xmlns:j2="null" trim="false">
+	<script src="https://codemirror.net/lib/codemirror.js"/>
+	<form class="form-horizontal">
+		<script src="https://codemirror.net/mode/javascript/javascript.js"/>			
+		<script src="https://codemirror.net/addon/edit/matchbrackets.js"/>
+		<link rel="stylesheet" href="https://codemirror.net/theme/neo.css"/>
+		<link rel="stylesheet" href="https://codemirror.net/lib/codemirror.css"/>
+		<g2:evaluate var="jvar_codeString" jelly="true" object="true">		
+			current.u_code;	
+		</g2:evaluate>	
+		<div style="font-size: 11px !important;">
+			<textarea id="code" name="code">$[jvar_codeString]</textarea></div>
+				<script>
+					
+  var codeEditor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        lineNumbers: true,
+					smartIndent: true,
+					indentWithTabs: true,
+        matchBrackets: true,
+		theme: 'neo',
+		parserfile: ["https://codemirror.net/1/contrib/csharp/js/parsecsharp.js"],
+    stylesheet: "https://codemirror.net/1/contrib/csharp/css/csharpcolors.css",  
+    indentUnit: 4
+      });
+	 codeEditor.setSize("100%", 600 );
+
+</script>
+	</form>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

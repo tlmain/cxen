@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>Branch - EOD Logged on Users</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Unable to initiate EOD due to user logged on to the system</short_description>
+        <show_on_template_bar>false</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-11-14 15:27:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>026d3f45dbfdeb003affd0b2ca961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Branch - EOD Logged on Users</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_template_026d3f45dbfdeb003affd0b2ca961933</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-11-14 15:27:06</sys_updated_on>
+        <table>incident</table>
+        <template>short_description=Unable to initiate EOD due to user logged on to the system^instructions=Unable to initiate EOD due to user logged on to the system.
+
+Advise the user that they can now check who is logged onto the branch for themselves via List Logged on Users, also mention that if they need to setup screen locations they can also do this now via Location Description Maintenance. 
+
+Take a screen shot of the "list logged on users" screen and put this on an update, rather than "list routines in use at branch"^affected_system=Branch Systems (RPN)^cmdb_ci=SFT-BRAEOD-RPN^close_notes=1. Analyst tandemed port(s) and logged off. [ ] 
+2. Senior/Manager logged port(s) off. [ ] Logged off by
+3. Advised branch to contact [] and ask them to log out or run Overnight
+4. Other - []^contact_type=phone^impact=3^category=^subcategory=^close_code=</template>
+        <user/>
+        <view/>
+    </sys_template>
+</record_update>

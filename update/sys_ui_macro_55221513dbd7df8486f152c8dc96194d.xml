@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>CXEN_FunctionParameterValuesPreview</name>
+        <scoped_name>x_wols2_cxen_CXEN_FunctionParameterValuesPreview</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>AAJ9045</sys_created_by>
+        <sys_created_on>2018-07-19 20:08:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>55221513dbd7df8486f152c8dc96194d</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>CXEN_FunctionParameterValuesPreview</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_ui_macro_55221513dbd7df8486f152c8dc96194d</sys_update_name>
+        <sys_updated_by>AAJ9045</sys_updated_by>
+        <sys_updated_on>2018-08-21 06:15:58</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+
+<j:jelly
+	xmlns:j="jelly:core"
+	xmlns:g="glide"
+	xmlns:g2="null"
+	xmlns:j2="null" trim="false">
+	<script>
+		function fileUpload(_inputObj)
+		{			
+			//Read file data from upload and save it to respective hidden field
+			var id = _inputObj.id;
+			var file = _inputObj.files[0];
+			var reader = new FileReader();		
+		    reader.onload = function(e) 
+			{	  
+				var dataField = document.getElementById("data_" + _inputObj.id);
+				dataField.value = btoa(reader.result);	     
+			};
+			var read = reader.readAsBinaryString(file);	
+		}	
+	</script>	
+
+	<form class="form-horizontal">
+		
+		<g2:evaluate var="jvar_defs" jelly="true" object="true">
+			var eng = new CXEN_Engine();
+			eng.GetFunctionParameterDefinitionRecords(current.u_parameter_definitions);						</g2:evaluate>	
+	
+		<h4>Available Parameters</h4>
+		<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Variable</th>
+      <th>Type</th>
+      <th>Default Value</th>
+    </tr>
+  </thead>
+<tbody>			
+		<j2:forEach var="jvar_def" items="$[jvar_defs]">
+			<g2:evaluate var="jvar_name" jelly="true">JSON.parse(jelly.jvar_def).u_name;</g2:evaluate>
+			<g2:evaluate var="jvar_dataType" jelly="true">JSON.parse(jelly.jvar_def).u_data_type;</g2:evaluate>
+			<g2:evaluate var="jvar_defaultValue" jelly="true" object="true">jelly.jvar_dataType == "Password" ? "[Truncated]" : JSON.parse(jelly.jvar_def).u_default_value;</g2:evaluate>			
+			<g2:evaluate var="jvar_description" jelly="true">JSON.parse(jelly.jvar_def).u_description;</g2:evaluate>				
+	     	<g2:evaluate var="jvar_variableName" jelly="true">JSON.parse(jelly.jvar_def).u_variable_name;</g2:evaluate>				
+			<g2:evaluate var="jvar_id" jelly="true">"functionparameter_" + jelly.jvar_variableName;</g2:evaluate>				
+			<g2:evaluate var="jvar_dataid" jelly="true">"data_functionparameter_" + jelly.jvar_variableName;</g2:evaluate>			
+    <tr>
+      <td>$[jvar_name]</td>
+      <td>_$[jvar_variableName]</td>
+      <td>$[jvar_dataType]</td>
+	  <td>$[jvar_defaultValue]</td>		
+    </tr>
+		</j2:forEach>
+			</tbody>		
+		</table>		
+	</form>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

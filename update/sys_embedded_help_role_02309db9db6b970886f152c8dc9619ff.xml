@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="actsub_user" name="actsub_user">53b30635db103200fa9b32d8f0b8f5c9</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-07-27 14:24:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>02309db9db6b970886f152c8dc9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>53b30635db103200fa9b32d8f0b8f5c9</sys_name>
+        <sys_package display_value="CXen" source="x_wols2_cxen">a68321a1db071bc001767ee5bf96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CXen">a68321a1db071bc001767ee5bf96192e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_02309db9db6b970886f152c8dc9619ff</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-27 14:24:36</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
